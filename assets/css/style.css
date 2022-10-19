@@ -1,0 +1,21 @@
+h1{
+    Color: Red;
+    font-weight: bold;
+}
+li{
+    color: red;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px
+}
+.texto{
+    color: black;
+    border: 0 solid black;
+    margin: 0;
+}
+.icones{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
