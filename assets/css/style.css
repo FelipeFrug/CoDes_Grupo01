@@ -1,21 +1,141 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    height:100%;
+    width:100%;
+}
+.coluna{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 100%;
+}
 h1{
-    Color: Red;
+    Color: #025237;
     font-weight: bold;
+    font-size: 2rem;
+    align-self: center;
+    position: fixed;
+    left:28%;
 }
-li{
-    color: red;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px
-}
-.texto{
-    color: black;
-    border: 0 solid black;
-    margin: 0;
+header{     
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    height: 7%;
+    padding:1rem 0rem;
+    background: #9CD9C5;
+
 }
 .icones{
-    max-width:50px;
-    max-height:50px;
-    width: auto;
-    height: auto;
+    width: 5rem;
+    height:5rem;
+}
+.botões{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-top:30%;
+}
+.botão{
+    border: 0px solid black;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 90px;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #05D18E;
+    position: relative;
+}
+main{
+    width: 100%;
+}
+.texto{
+    margin-top:1rem;
+    font-size:1rem;
+    position: absolute;
+    bottom: -1.5rem;
+}
+.home{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self:center;
+    position: fixed;
+    left:0rem;
+
+
+}
+.iconehome{
+    height: 2rem;
+    width: 2rem;
+      
+}
+.buscar{
+    position:absolute;
+    left: 10%;
+    top:15%;
+    border:1px solid black;
+    border-radius: 90px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width: 70%;
+    padding:0rem 1rem 0rem 1rem;
+    background: #9CD9C5;
+}
+.iconepequeno{
+    height:1rem;
+    width:1rem;
+}
+.empresas{
+    position: absolute;
+    top: 20%;
+    left:10%
+}
+.empresatitulo{
+    font-size:3rem;
+}
+.empresadescrição{
+    font-size: 1.5rem;
+}
+.tituloPEC{
+    Color: #025237;
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: center;
+    position: fixed;
+    left:35%;
+}
+.informação{
+    justify-self:center;
+}
+.informações{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    align-self: center;
+    left:25%;
+    margin-top:5%;
+}
+.comprar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top:10%;
+    border:1px solid black;
+    border-radius: 90px;
+    width: 70%;
+    padding:0rem 1rem 0rem 1rem;
+    background: #05D18E;
 }
