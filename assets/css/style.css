@@ -139,3 +139,18 @@ main{
     padding:0rem 1rem 0rem 1rem;
     background: #05D18E;
 }
+.selecionada{
+    width:3rem;
+    background: #05D18E;
+    margin:0.5rem;
+}
+.restante{
+    width:3rem;
+    background: #9CD9C5;
+    margin:0.5rem;
+}
+.opções{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
