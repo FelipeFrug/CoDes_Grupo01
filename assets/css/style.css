@@ -182,3 +182,34 @@ main{
     justify-self:center;
     margin:0.5rem;    
 }
+
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.infograficos {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    align-self: center;
+
+}
+
+.infog{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.info3{
+    margin:1rem;
+}
+
+.g{
+    margin:0.5rem;
+}
