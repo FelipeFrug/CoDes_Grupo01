@@ -99,6 +99,10 @@ main{
     top: 20%;
     left:10%
 }
+.empresa{
+    margin:1rem;
+
+}
 .empresatitulo{
     font-size:3rem;
 }
@@ -136,15 +140,30 @@ main{
     padding:0rem 1rem 0rem 1rem;
     background: #05D18E;
 }
+.comprar2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:10%;
+    border:1px solid black;
+    border-radius: 90px;
+    width: 70%;
+    padding:0rem 1rem 0rem 1rem;
+    background: #05D18E;
+}
 .selecionada{
     width:3rem;
     background: #05D18E;
     margin:1.5rem;
+    display:flex;
+    justify-content: center;
 }
 .restante{
     width:3rem;
     background: #9CD9C5;
     margin:1.5rem;
+    display:flex;
+    justify-content: center;
 }
 .opções{
     display:flex;
@@ -212,4 +231,14 @@ main{
 
 .g{
     margin:0.5rem;
+}
+.fontes{
+    font-family: 'Open Sans', sans-serif; /*- https://en.wikipedia.org/wiki/Open_Sans*/
+    font-family: 'PT Serif', serif; /*https://en.wikipedia.org/wiki/PT_Fonts*/
+}
+
+.coluna_centro{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
